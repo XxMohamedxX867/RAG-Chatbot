@@ -238,18 +238,7 @@ CMD ["uvicorn", "src.app:app", "--host", "0.0.0.0", "--port", "8000"]
 - **Rate Limiting**: Add request throttling to prevent abuse
 - **Input Validation**: Sanitize user inputs to prevent injection attacks
 - **HTTPS**: Use SSL certificates in production
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/AmazingFeature`
-3. **Make your changes**
-4. **Test thoroughly**
-5. **Commit your changes**: `git commit -m 'Add some AmazingFeature'`
-6. **Push to the branch**: `git push origin feature/AmazingFeature`
-7. **Open a Pull Request**
+  
 
 ### Development Guidelines
 
@@ -258,9 +247,6 @@ We welcome contributions! Please follow these steps:
 - Update documentation for API changes
 - Ensure all tests pass before submitting PR
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -270,48 +256,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ChromaDB](https://www.trychroma.com/) for the vector database
 - [Font Awesome](https://fontawesome.com/) for the beautiful icons
 
-## 📞 Support
-
-### Getting Help
-
-1. **Check the troubleshooting section** above
-2. **Review the code comments** in `src/app.py`
-3. **Check FastAPI and LangChain documentation**
-4. **Ensure all dependencies are properly installed**
-
-### Report Issues
-
-- **GitHub Issues**: [Create a new issue](https://github.com/yourusername/luxury-haven-hotel-chatbot/issues)
-- **Include details**: Error messages, steps to reproduce, environment info
-
-## 🔮 Future Enhancements
-
-- [ ] User authentication and session management
-- [ ] Multi-language support
-- [ ] Voice chat integration
-- [ ] Booking system integration
-- [ ] Real-time chat with hotel staff
-- [ ] Analytics and usage tracking
-- [ ] Mobile app development
-- [ ] Advanced document processing (images, tables)
-- [ ] Sentiment analysis for guest feedback
-- [ ] Integration with hotel management systems
-- [ ] Multi-PDF support
-- [ ] Conversation memory and context
-- [ ] Customizable AI personalities
-- [ ] Export chat history
-- [ ] Admin dashboard
-
-## 📊 Project Status
-
-- ✅ **Core RAG System**: Complete
-- ✅ **FastAPI Backend**: Complete
-- ✅ **Hotel Landing Page**: Complete
-- ✅ **AI Chatbot Interface**: Complete
-- ✅ **PDF Auto-loading**: Complete
-- ✅ **Environment Configuration**: Complete
-- 🔄 **Documentation**: In Progress
-- 🔄 **Testing**: In Progress
 
 ---
 
