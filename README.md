@@ -147,36 +147,6 @@ luxury-haven-hotel-chatbot/
 - **LLM Model**: `models/gemini-2.5-flash`
 - **System Prompt**: Hotel concierge assistant role
 
-## 🌟 Customization
-
-### Modifying the Hotel Theme
-
-1. **Update colors and branding**
-   - Edit CSS variables in `templates/index.html`
-   - Change logo text in the header
-   - Update hero section background image
-
-2. **Modify hotel features**
-   - Edit the features section in `templates/index.html`
-   - Add or remove feature cards
-   - Update icons using Font Awesome classes
-
-3. **Customize the chatbot**
-   - Modify the system prompt in `src/app.py`
-   - Adjust chunk size and overlap for text processing
-   - Change the AI model (requires compatible API)
-
-### Adding New Features
-
-1. **New sections**
-   - Add HTML sections to `templates/index.html`
-   - Include corresponding CSS styles
-   - Add navigation links if needed
-
-2. **Enhanced chatbot**
-   - Modify the RAG chain in `src/app.py`
-   - Add conversation memory
-   - Implement user authentication
 
 ## 🚀 Deployment
 
