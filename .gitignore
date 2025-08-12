@@ -198,6 +198,7 @@ chroma_langchain_db/
 
 # PDF files (if you want to exclude them)
 # *.pdf
+# Temporarily allowing hotels details.pdf
 
 # API keys and sensitive data
 .env.local
