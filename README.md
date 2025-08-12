@@ -178,53 +178,13 @@ EXPOSE 8000
 CMD ["uvicorn", "src.app:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-| Issue | Solution |
-|-------|----------|
-| **PDF upload fails** | Ensure `data/hotels details.pdf` exists and is readable |
-| **Chatbot not responding** | Check if Google API key is set in `.env` file |
-| **Server won't start** | Verify all dependencies are installed and port 8000 is available |
-| **Import errors** | Ensure virtual environment is activated |
-
-### Performance Optimization
-
-1. **Large PDFs**
-   - Reduce chunk size for better processing
-   - Use smaller overlap values
-   - Consider splitting very large documents
-
-2. **Response time**
-   - Optimize the embedding model
-   - Use caching for frequent queries
-   - Implement request rate limiting
-
-## 🔒 Security Considerations
-
-- **API Key Protection**: Never expose your Google AI API key in client-side code
-- **File Upload**: Implement file type and size validation if adding upload functionality
-- **Rate Limiting**: Add request throttling to prevent abuse
-- **Input Validation**: Sanitize user inputs to prevent injection attacks
-- **HTTPS**: Use SSL certificates in production
-  
-
-### Development Guidelines
-
-- Follow PEP 8 Python style guidelines
-- Add tests for new functionality
-- Update documentation for API changes
-- Ensure all tests pass before submitting PR
 
 
 ## 🙏 Acknowledgments
 
-- [FastAPI](https://fastapi.tiangolo.com/) for the amazing web framework
 - [LangChain](https://langchain.com/) for the RAG framework
 - [Google AI](https://ai.google.dev/) for the Gemini models
 - [ChromaDB](https://www.trychroma.com/) for the vector database
-- [Font Awesome](https://fontawesome.com/) for the beautiful icons
 
 
 ---
